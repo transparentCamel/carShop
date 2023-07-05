@@ -1,15 +1,18 @@
 import React from 'react';
 import phone from '../../../../assets/Assistance_Icon.svg';
 import { PhoneCardStyles } from './PhoneCard.Styles';
+import { useTranslation } from 'react-i18next';
+import '../../../translations/translations.jsx';
 
 export default function PhoneCard() {
+  const { t } = useTranslation();
   return (
     <PhoneCardStyles>
       <div>
         <img src={phone} alt='Phone'></img>
       </div>
       <div>
-        <p>Road Assistance</p>
+        <p>{t('roadAssistance')}</p>
         <p>1800 265 24 52</p>
       </div>
     </PhoneCardStyles>
