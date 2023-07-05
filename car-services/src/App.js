@@ -3,14 +3,20 @@ import { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from './core/globalStyles/GlobalStyles';
 import Header from './core/features/header/Header';
 import { theme } from './core/globalStyles/Theme';
-import Button from './core/components/button/Button';
+import { HomePage } from './screens/HomePage';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <Header />
-      <Button backgroundColor={theme.colors.black} text={'Book a service'} />
+      <BrowserRouter>
+        <Header />
+
+        <Routes>
+          <Route path='/' element={<HomePage />} />
+        </Routes>
+      </BrowserRouter>
     </ThemeProvider>
   );
 }
