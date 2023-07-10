@@ -1,5 +1,5 @@
 import React from 'react';
-import phone from '../../../../assets/Assistance_Icon.svg';
+import phone from '../../../../assets/images/Assistance_Icon.svg';
 import { PhoneCardStyles } from './PhoneCard.Styles';
 import { useTranslation } from 'react-i18next';
 import '../../../translations/translations.jsx';

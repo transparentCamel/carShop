@@ -2,9 +2,9 @@ import React from 'react';
 import { QuoteStyles } from './Quote.Style';
 import Form from '../form/Form';
 import TextFeature from '../textFeature/TextFeature';
-import wrench from '../../../assets/wrenchIconTextFeature.svg';
-import mechanic from '../../../assets/mechanicIconTextFeature.svg';
-import dollar from '../../../assets/dollarIconTextFeature.svg';
+import wrench from '../../../assets/images/wrenchIconTextFeature.svg';
+import mechanic from '../../../assets/images/mechanicIconTextFeature.svg';
+import dollar from '../../../assets/images/dollarIconTextFeature.svg';
 import LearnMoreArrow from '../../components/learnMoreArrow/LearnMoreArrow';
 
 export default function Quote() {

@@ -5,6 +5,7 @@ import Header from './core/features/header/Header';
 import { theme } from './core/globalStyles/Theme';
 import { HomePage } from './screens/HomePage';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Footer from './core/features/footer/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path='/' element={<HomePage />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </ThemeProvider>
   );

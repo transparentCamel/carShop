@@ -2,7 +2,8 @@ import styled from 'styled-components';
 import { theme } from '../../globalStyles/Theme';
 
 export const HomeHeroCardStyles = styled.div`
-  padding: 0px 256px 0px 256px;
+  padding-left: 14%;
+  padding-right: 14%;
   margin: 128px 0px 128px 0px;
   height: 632px;
   display: flex;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { LearnMoreArrowStyles } from './LearnMoreArrow.Syle';
-import arrow from '../../../assets/Arrow.svg';
+import arrow from '../../../assets/images/Arrow.svg';
 
 export default function LearnMoreArrow({ text }) {
   return (

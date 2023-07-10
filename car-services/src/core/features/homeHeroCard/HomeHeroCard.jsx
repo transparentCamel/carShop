@@ -3,11 +3,11 @@ import { HomeHeroCardStyles } from './HomeHeroCard.Styles';
 import Button from '../../components/button/Button';
 import { theme } from '../../globalStyles/Theme';
 import { useTranslation } from 'react-i18next';
-import clock from '../../../assets/clock.svg';
+import clock from '../../../assets/images/clock.svg';
 import '../../translations/translations.jsx';
-import mechanic from '../../../assets/mechanic.png';
-import circle from '../../../assets/Circle.svg';
-import stars from '../../../assets/Stars.svg';
+import mechanic from '../../../assets/images/mechanic.png';
+import circle from '../../../assets/images/Circle.svg';
+import stars from '../../../assets/images/Stars.svg';
 
 export default function HomeHeroCard() {
   const { t } = useTranslation();
