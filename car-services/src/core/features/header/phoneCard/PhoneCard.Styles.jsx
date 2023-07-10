@@ -5,6 +5,7 @@ export const PhoneCardStyles = styled.div`
   flex-direction: row;
   align-items: center;
   height: 42px;
+  margin-right: 8px;
 
   :first-child {
     margin-right: 8px;

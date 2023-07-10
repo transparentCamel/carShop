@@ -2,8 +2,9 @@ import styled from 'styled-components';
 import { theme } from '../../globalStyles/Theme';
 
 export const QuoteStyles = styled.section`
-  padding: 128px 256px 128px 256px;
+  padding: 128px 14% 128px 14%;
   display: flex;
+
   background-color: ${theme.colors.steelGrey};
 
   div {

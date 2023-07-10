@@ -29,9 +29,11 @@ body {
     }
     .body01 {
         font-size: ${theme.fontSizes.paragraphOne}; 
+        color: #939191;
     }
     .body02 {
         font-size: ${theme.fontSizes.paragraphTwo}; 
+        
     }
    
 }
