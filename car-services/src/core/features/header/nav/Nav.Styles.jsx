@@ -3,11 +3,16 @@ import styled from 'styled-components';
 export const NavStyles = styled.nav`
   display: flex;
   align-items: center;
-
-  ul {
-    list-style: none;
-    padding: 0;
+  ul,
+  li,
+  a {
+    text-decoration: none;
+    color: black;
     margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;

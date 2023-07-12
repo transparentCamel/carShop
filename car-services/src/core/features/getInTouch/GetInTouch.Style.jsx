@@ -24,12 +24,4 @@ export const GetInTouchStyles = styled.section`
       margin-top: 64px;
     }
   }
-  .getInTouchRightContainer {
-    margin-right: 14%;
-    div {
-      p {
-        margin-bottom: 16px;
-      }
-    }
-  }
 `;

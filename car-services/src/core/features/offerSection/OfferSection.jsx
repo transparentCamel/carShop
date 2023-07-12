@@ -11,6 +11,8 @@ import wheelIcon from '../../../assets/images/wheelIcon.svg';
 import gearIcon from '../../../assets/images/gearIcon.svg';
 import LearnMoreArrow from '../../components/learnMoreArrow/LearnMoreArrow';
 
+import { theme } from '../../globalStyles/Theme';
+
 export default function OfferSection() {
   return (
     <OfferSectionStyles>
@@ -22,7 +24,12 @@ export default function OfferSection() {
         <div className='row'>
           <IconCard icon={carIcon} text={'Diagnostics'} />
           <IconCard icon={gearIcon} text={'Engine Repair'} />
-          <IconCard icon={wheelIcon} text={'Wheel Repair'} />
+          <IconCard
+            icon={wheelIcon}
+            text={'Wheel Repair'}
+            backgroundColor={theme.colors.primary}
+            color={'white'}
+          />
           <IconCard icon={oilIcon} text={'Oil Filter'} />
         </div>
         <div className='row'>
