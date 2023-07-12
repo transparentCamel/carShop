@@ -15,6 +15,7 @@ export default function Form({
   secondInpuType,
   thirdInpuType,
   fourthInpuType,
+  backgroundColor,
 }) {
   return (
     <FormStyles>
@@ -23,22 +24,22 @@ export default function Form({
         <Input
           inputType={firstInpuType}
           placeholder={firstPlaceholder}
-          backgroundColor={'white'}
+          backgroundColor={backgroundColor || 'white'}
         />
         <Input
           inputType={secondInpuType}
           placeholder={secondPlaceholder}
-          backgroundColor={'white'}
+          backgroundColor={backgroundColor || 'white'}
         />
         <Input
           inputType={thirdInpuType}
           placeholder={thirdPlaceholder}
-          backgroundColor={'white'}
+          backgroundColor={backgroundColor || 'white'}
         />
         <Input
           inputType={fourthInpuType}
           placeholder={fourthPlaceholder}
-          backgroundColor={'white'}
+          backgroundColor={backgroundColor || 'white'}
         />
       </div>
       <Button backgroundColor={theme.colors.primary} text={buttonText} />

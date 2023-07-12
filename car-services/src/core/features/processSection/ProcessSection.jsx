@@ -2,10 +2,10 @@ import React from 'react';
 import { ProcessStyles } from './ProcessSection.Style';
 import Button from '../../components/button/Button';
 import { theme } from '../../globalStyles/Theme';
-import StepCard from '../stepCard/StepCard';
 import circleOne from '../../../assets/images/circleOne.svg';
 import circleTwo from '../../../assets/images/circleTwo.svg';
 import circleThree from '../../../assets/images/circleThree.svg';
+import StepCard from '../../components/stepCard/StepCard';
 
 export default function ProcessSection() {
   return (

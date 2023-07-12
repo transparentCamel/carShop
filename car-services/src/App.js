@@ -8,6 +8,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Footer from './core/features/footer/Footer';
 import { Services } from './screens/Services';
 import { ServiceSingle } from './screens/ServiceSingle';
+import { About } from './screens/About';
+import { Contact } from './screens/Contact';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
           <Route path='/' element={<HomePage />} />
           <Route path='/services' element={<Services />} />
           <Route path='/services/single' element={<ServiceSingle />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/contact' element={<Contact />} />
         </Routes>
         <Footer />
       </BrowserRouter>
