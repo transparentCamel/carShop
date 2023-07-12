@@ -42,7 +42,7 @@ export default function Quote() {
           firstInpuType={'text'}
           secondInpuType={'text'}
           thirdInpuType={'text'}
-          fourthInpuType={'number'}
+          fourthInpuType={'tel'}
           firstPlaceholder={'Enter your location'}
           secondPlaceholder={'Enter your location'}
           thirdPlaceholder={'Enter your location'}

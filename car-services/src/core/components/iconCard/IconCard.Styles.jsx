@@ -5,5 +5,6 @@ export const IconCardStyles = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: white;
+  background-color: ${(props) => props.backgroundColor || 'white'};
+  color: ${(props) => props.color || 'black'};
 `;

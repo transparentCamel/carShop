@@ -9,7 +9,10 @@ export const FooterStyles = styled.section`
   align-items: center;
   justify-content: space-between;
   ul,
-  li {
+  li,
+  a {
+    text-decoration: none;
+    color: white;
     margin: 0;
     padding: 0;
     list-style: none;

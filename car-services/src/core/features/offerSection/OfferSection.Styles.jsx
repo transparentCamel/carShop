@@ -39,12 +39,6 @@ export const OfferSectionStyles = styled.section`
     align-items: center;
     justify-content: space-between;
 
-    :first-child {
-      :nth-child(3) {
-        background-color: ${theme.colors.primary};
-        color: white;
-      }
-    }
     .row {
       display: flex;
       width: 100%;
