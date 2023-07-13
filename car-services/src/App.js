@@ -11,6 +11,7 @@ import { ServiceSingle } from './screens/ServiceSingle';
 import { About } from './screens/About';
 import { Contact } from './screens/Contact';
 import { Blog } from './screens/Blog';
+import { BlogSingle } from './screens/BlogSingle';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/blog' element={<Blog />} />
+          <Route path='/blog/single' element={<BlogSingle />} />
         </Routes>
         <Footer />
       </BrowserRouter>
