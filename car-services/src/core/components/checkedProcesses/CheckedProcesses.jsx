@@ -9,7 +9,7 @@ export default function CheckedProcesses({ text }) {
         <img src={checkMark} alt='Check Icon' />
       </div>
 
-      <p>{text}</p>
+      <p className='title02'>{text}</p>
     </CheckedProcessesStyles>
   );
 }

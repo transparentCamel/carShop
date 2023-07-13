@@ -7,6 +7,8 @@ export const CtaStyles = styled.section`
 
   .carImageContainer {
     max-width: 14%;
+
+    object-fit: cover;
   }
   .ctaTextContainer {
     background-color: ${theme.colors.primary};
@@ -14,9 +16,13 @@ export const CtaStyles = styled.section`
     flex-direction: column;
     padding: 32px 64px 32px 64px;
     color: white;
-    min-width: 512px;
   }
   .jumpLeadsContainer {
-    max-width: 56%;
+    width: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
   }
 `;

@@ -9,6 +9,9 @@ export const AutoDiagnosticsHeaderStyles = styled.section`
   .diagnosticsMainContainer {
     display: flex;
     gap: 64px;
+    @media (max-width: 1366px) {
+      flex-direction: column-reverse;
+    }
     .diagnosticsLeftContainer {
       display: flex;
       flex-direction: column;
@@ -32,9 +35,10 @@ export const AutoDiagnosticsHeaderStyles = styled.section`
     .diagnosticsRightContainer {
       div {
         height: 28%;
+        display: flex;
         img {
           width: 100%;
-          height: 100%;
+          object-fit: cover;
         }
       }
       h4 {
