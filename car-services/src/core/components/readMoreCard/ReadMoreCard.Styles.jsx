@@ -6,6 +6,7 @@ export const ReadMoreCardStyles = styled.div`
   background-color: white;
   .readMoreCardImageContainer {
     width: 100%;
+    margin-bottom: 32px;
     img {
       width: 100%;
       height: auto;

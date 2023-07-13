@@ -58,6 +58,9 @@ export const BlogHeaderStyles = styled.section`
       display: flex;
       gap: 32px;
       margin-top: 32px;
+      button {
+        width: 177px;
+      }
     }
   }
 `;

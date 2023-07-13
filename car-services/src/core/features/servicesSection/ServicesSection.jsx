@@ -1,6 +1,6 @@
 import React from 'react';
 import { ServicesSectionStyles } from './ServicesSection.Styles';
-import ReadMoreCard from '../readMoreCard/ReadMoreCard';
+import ReadMoreCard from '../../components/readMoreCard/ReadMoreCard';
 import IconCard from '../../components/iconCard/IconCard';
 import carWheel from '../../../assets/images/carWheel.png';
 import carIcon from '../../../assets/images/carIcon.svg';
@@ -14,6 +14,7 @@ export default function ServicesSection() {
   return (
     <ServicesSectionStyles>
       <ReadMoreCard
+        arrow={true}
         posted={false}
         img={carWheel}
         title={'Auto Diagnostics'}

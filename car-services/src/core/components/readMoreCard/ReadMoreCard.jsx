@@ -1,6 +1,6 @@
 import React from 'react';
 import { ReadMoreCardStyles } from './ReadMoreCard.Styles';
-import LearnMoreArrow from '../../components/learnMoreArrow/LearnMoreArrow';
+import LearnMoreArrow from '../learnMoreArrow/LearnMoreArrow';
 
 export default function ReadMoreCard({
   datePosted,
@@ -9,6 +9,7 @@ export default function ReadMoreCard({
   title,
   paragraph,
   arrowText,
+  arrow,
 }) {
   return (
     <ReadMoreCardStyles className='readMoreCard'>
@@ -18,7 +19,7 @@ export default function ReadMoreCard({
       {posted && <p className='postDate'>{datePosted}</p>}
       <h3>{title}</h3>
       <p className='readMoreCardBody'>{paragraph}</p>
-      <LearnMoreArrow text={arrowText} />
+      {arrow && <LearnMoreArrow text={arrowText} />}
     </ReadMoreCardStyles>
   );
 }
