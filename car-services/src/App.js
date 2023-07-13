@@ -10,6 +10,7 @@ import { Services } from './screens/Services';
 import { ServiceSingle } from './screens/ServiceSingle';
 import { About } from './screens/About';
 import { Contact } from './screens/Contact';
+import { Blog } from './screens/Blog';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path='/services/single' element={<ServiceSingle />} />
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/blog' element={<Blog />} />
         </Routes>
         <Footer />
       </BrowserRouter>
